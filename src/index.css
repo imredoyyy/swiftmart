@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  line-height: calc(1em + 0.5rem) !important;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif, system-ui;
+  /* overflow-x: hidden; */
+  /* padding-top: 70px; */
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff6f00;
+  border-radius: 2rem;
+}
+
+/* Hide scrollbar in Chrome, Safari, Opera & other webkit based browsers */
+#trendingSlider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar in MS Edge, Internet Explorer, FireFox */
+#trendingSlider {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
