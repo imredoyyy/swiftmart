@@ -4,7 +4,7 @@
 
 SwiftMart is a minimalistic e-commerce website built with React.js and Tailwind CSS. Users can search for products, add products to the cart and manage cart easily.
 
-👉 Live Preview: <a href='https://swift-mart-shop.vercel.app/' target="_blank">Live Preview</a>
+👉 Live Preview: <a href="https://swift-mart-shop.vercel.app/" target="_blank">Live Preview</a>
 
 ## Features
 - **User-Friendly Interface**: This website offers a clean, intuitive and responsive interface, making it easy for users to navigate and find what they're looking for.
